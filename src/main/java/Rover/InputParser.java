@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class InputParser {
     String userInputString;
 
+    enum Instruction {
+        L,
+        R,
+        M
+    }
+
     // use scanner to take user input
     // method to take user input from scanner and convert to enum instruction,
     // create plateau size, take enum instruction and convert to compass direction, and update rover position.
