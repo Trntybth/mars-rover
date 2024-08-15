@@ -3,13 +3,38 @@ package Rover;
 import java.util.Scanner;
 
 public class InputParser {
-    String userInputString;
 
     enum Instruction {
         L,
         R,
         M
     }
+
+    public void plateauDimensionsTaker() {
+        // scans user input for X & Y
+        // cannot be smaller than 4 x 4
+        // cannot be negative numbers
+    }
+
+    public void startingPositionTaker(){
+
+        // scans user input for X and Y
+        // passes X & Y into RoverPosition's startingPoint hashmap
+    }
+    public void instructionTaker(){
+
+
+    }
+
+
+
+    public InputParser() {
+
+    }
+
+
+
+    // create 3 methods for taking different inputs
 
     // use scanner to take user input
     // method to take user input from scanner and convert to enum instruction,

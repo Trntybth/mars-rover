@@ -1,5 +1,8 @@
 package Rover;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RoverPosition {
 
     enum CompassDirection {
@@ -8,8 +11,8 @@ public class RoverPosition {
         WEST,
         EAST
     }
-    private int x;
-    private int y;
     private CompassDirection facing;
+    Map<String, Integer> currentLocation = new HashMap<>();
+
 
 }
